@@ -1,0 +1,16 @@
+ //calculator exersize snippet
+
+
+ $(document).ready(function() {
+            var firstNumber;
+            var secondNumber;
+            var operator;
+            var result;
+            var isOperatorChosen;
+            var isCalculated;
+            $(".number").on("click", function() {
+                var buttonPressed = $(this).attr("value");
+                // Print by clicking the first number to the #first-number
+                $("#first-number").append(buttonPressed);
+            });
+        });

@@ -1,0 +1,22 @@
+scope is defined at the function level in javascript
+var a = "will" --> this is global
+global means entire program 
+function () {
+var b = "shep"	
+}
+if you have a variable outside of a function it is global
+if you want in just one place you need to put inside of a function and that is LOCAL
+--
+jQuery begins!!
+- it makes dom manipulations easiers, ie. GetElementById, document.onkeyup
+- it's a library like bootstrap so you don't have to do your query manipulations by hand
+function will return an object
+
+jQuery is good for removing HTML elements and registering events and animating HTML elements
+- include a cdn link to the jQuery script
+- utilizing the jQuery specific ($) selector
+$("#clickMe")-- syntatic sugar, is an object, # means id just like css
+- jQuery function is .on("click", function ()) {
+	
+}
+- string inturbolation

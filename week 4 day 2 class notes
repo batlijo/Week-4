@@ -1,0 +1,8 @@
+objectives:
+- use jQuery to create game: group effort for letter buttons
+- Lexical scope:
+	- scope has to do with local or global
+	- put it outside of function to make global
+	- scope is defined by where it is in your code, which is defined by if it's in your code or not
+	- can you acess a variable yes or no
+	
